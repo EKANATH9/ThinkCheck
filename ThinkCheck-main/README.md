@@ -1,76 +1,32 @@
-🚀 Introducing ThinkCheck – Your AI Learning Partner 🎯
-Hey everyone! 👋
-I’m thrilled to introduce ThinkCheck, an AI-driven adaptive learning platform that helps students and professionals sharpen their skills through quizzes, written assessments, roadmaps, and downloadable notes – all in one place! 📚✨
+Hey everyone,
+I wanted to take a moment to introduce something I’ve been working on — it’s called **ThinkCheck**.
 
-🤖 What is ThinkCheck?
-ThinkCheck is your personal study buddy powered by Gemini AI, offering:
+ThinkCheck is an AI-powered learning platform designed to help students and professionals improve their skills through an interactive and personalized experience. Whether you’re preparing for exams, interviews, or just want to learn something new, ThinkCheck offers everything in one place: quizzes, written answer evaluations, study roadmaps, and downloadable notes.
 
-✅ Dynamic MCQs with difficulty selection
-✅ AI-evaluated written answers
-✅ Smart, customized roadmaps
-✅ Downloadable notes for revision
+Here’s how it works. The platform uses Gemini AI to power several features. You can choose dynamic multiple-choice questions based on topic and difficulty, write answers and get them evaluated instantly with a score, generate custom study roadmaps tailored to your progress, and download clean, organized notes to review offline.
 
-Whether you're prepping for interviews, exams, or just brushing up – ThinkCheck has your back.
+ThinkCheck includes different modes like MCQ mode, where you can practice questions and see smart analysis, and Written mode, where your descriptive answers are scored automatically. There's also a roadmap generator that suggests what to focus on next, and a notes section to help you revise efficiently.
 
-🔥 Key Features
-🧠 MCQ Mode – Topic-based quizzes with smart analysis
-✍️ Written Mode – Get percentage scores on your answers
-🛣️ Roadmap Generator – Personalized study paths
-📄 Notes Section – Clean, downloadable Word files
+On the technical side, the frontend is built using React.js and styled with Tailwind CSS. The backend runs on Node.js and Express.js, and the AI engine behind the scenes uses the Gemini API. The app is deployed on Render, and optionally, it can use MongoDB to store and track your learning progress.
 
-🧑‍💻 Tech Stack
-Frontend: React.js + Tailwind CSS
+You can try the live demo here: [https://thinkcheck-1.onrender.com/](https://thinkcheck-1.onrender.com/)
 
-Backend: Node.js + Express.js
+If you're a developer and want to check it out locally, it's simple:
 
-AI Engine: Gemini API
+* Clone the repository from GitHub
+* Install the dependencies for both backend and frontend
+* Add your Gemini API key to a `.env` file
+* Start the servers and you're good to go
 
-Deployment: Render
+ThinkCheck was created to make learning more adaptive, more intuitive, and less overwhelming. If this sounds like something useful to you, I’d love for you to check it out and share it with others who might benefit.
 
-(Optional) MongoDB for tracking user progress
+Created by **Ekanath Alakanti**
+Email: **[alakantiekanath99@gmail.com](mailto:alakantiekanath99@gmail.com)**
+GitHub: **@Ekanath9**
 
-🌐 Live Demo
-https://thinkcheck-1.onrender.com/
-🔗 Try ThinkCheck now!
+Thanks for reading, and I hope ThinkCheck helps make your learning journey a little easier.
 
-🛠 Installation Guide (For Developers)
-1️⃣ Clone the Repository
-
-bash
-Copy
-Edit
-git clone https://github.com/chpurnabhargav/thinkcheck.git
-cd thinkcheck
-2️⃣ Install & Start Backend
-
-bash
-Copy
-Edit
-cd backend
-npm install
-npm start
-3️⃣ Install & Start Frontend
-
-bash
-Copy
-Edit
-cd ../frontend
-npm install
-npm start
-4️⃣ Add your API key
-
-env
-Copy
-Edit
-GEMINI_API_KEY=your_api_key_here
-📬 Contact
-👤 Bhargav Chpurna
-📧 chpurnabhargav@gmail.com
-🌐 GitHub: @chpurnabhargav
-
-🚀 Let’s make learning smarter, faster, and more personalized with AI!
-If you liked the idea, feel free to share or star the repo! ⭐
-#ThinkCheck #AI #LearningPlatform #Nodejs #Reactjs #GeminiAPI #HackathonProject #WebDev
+---
 
 Images to Check Out:
 ![image](https://github.com/user-attachments/assets/9299ab67-907f-46bd-a556-9d4ed67a072a)
